@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="573" height="510" viewBox="0 0 573 510">
+  <defs>
+    <filter id="타원_26" x="116.5" y="112.5" width="363" height="363" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_32">
+      <feOffset dx="10" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="타원_26-2" x="199.5" y="195.5" width="197" height="197" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icbm-img-01" transform="translate(-635 -1222)">
+    <g transform="matrix(1, 0, 0, 1, 635, 1222)" filter="url(#타원_26)">
+      <circle id="타원_26-3" data-name="타원 26" cx="174" cy="174" r="174" transform="translate(121 120)" fill="#fff"/>
+    </g>
+    <g id="타원_27" data-name="타원 27" transform="translate(729 1315)" fill="none" stroke="#f8f8f8" stroke-width="4">
+      <circle cx="201" cy="201" r="201" stroke="none"/>
+      <circle cx="201" cy="201" r="199" fill="none"/>
+    </g>
+    <g id="타원_28" data-name="타원 28" transform="translate(714 1300)" fill="none" stroke="#e97686" stroke-width="10" opacity="0.04">
+      <circle cx="216" cy="216" r="216" stroke="none"/>
+      <circle cx="216" cy="216" r="211" fill="none"/>
+    </g>
+    <g id="패스_6920" data-name="패스 6920" transform="translate(671 1257)" fill="none" opacity="0.06">
+      <path d="M0,259Z" stroke="none"/>
+      <path d="M 0 217.7073974609375 L 0 300.2926025390625 L 0 217.7073974609375 Z" stroke="none" fill="#76bee9"/>
+    </g>
+    <g id="타원_35" data-name="타원 35" transform="translate(749 1335)" fill="none" stroke="#b8000c" stroke-width="1">
+      <circle cx="181.5" cy="181.5" r="181.5" stroke="none"/>
+      <circle cx="181.5" cy="181.5" r="181" fill="none"/>
+    </g>
+    <circle id="타원_34" data-name="타원 34" cx="105" cy="105" r="105" transform="translate(825 1222)" fill="#b8000c"/>
+    <text id="플랫폼_연동기술" data-name="플랫폼 
+연동기술" transform="translate(930 1306)" fill="#fff" font-size="26" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.002em"><tspan x="-38.727" y="0">플랫폼 </tspan><tspan x="-47.762" y="38">연동기술</tspan></text>
+    <circle id="타원_34-2" data-name="타원 34" cx="105" cy="105" r="105" transform="translate(635 1502)" fill="#810008" opacity="0.96"/>
+    <text id="응용_기술" data-name="응용 기술" transform="translate(740 1618)" fill="#fff" font-size="26" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.002em"><tspan x="-50.661" y="0">응용 기술</tspan></text>
+    <path id="패스_6469" data-name="패스 6469" d="M105,0A105,105,0,1,1,0,105,105,105,0,0,1,105,0Z" transform="translate(998 1502)" fill="#d4434d"/>
+    <text id="관리_기술" data-name="관리 기술" transform="translate(1103 1618)" fill="#fff" font-size="26" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.002em"><tspan x="-50.661" y="0">관리 기술</tspan></text>
+    <g data-type="innerShadowGroup">
+      <ellipse id="타원_32-2" data-name="타원 32" cx="140" cy="139" rx="140" ry="139" transform="translate(790 1377)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 635, 1222)" filter="url(#타원_32)">
+        <ellipse id="타원_32-3" data-name="타원 32" cx="140" cy="139" rx="140" ry="139" transform="translate(155 155)" fill="#fff"/>
+      </g>
+      <g id="타원_32-4" data-name="타원 32" transform="translate(790 1377)" fill="none" stroke="#f6f6f6" stroke-width="8">
+        <ellipse cx="140" cy="139" rx="140" ry="139" stroke="none"/>
+        <ellipse cx="140" cy="139" rx="136" ry="135" fill="none"/>
+      </g>
+    </g>
+    <g id="그룹_7661" data-name="그룹 7661" transform="translate(794 1380)" opacity="0.15">
+      <g transform="matrix(1, 0, 0, 1, -159, -158)" filter="url(#타원_26-2)">
+        <circle id="타원_26-4" data-name="타원 26" cx="91" cy="91" r="91" transform="translate(204 203)" fill="#fff"/>
+      </g>
+      <g id="타원_27-2" data-name="타원 27" transform="translate(31 31)" fill="none" stroke="#f8f8f8" stroke-width="4">
+        <circle cx="105" cy="105" r="105" stroke="none"/>
+        <circle cx="105" cy="105" r="103" fill="none"/>
+      </g>
+      <g id="타원_28-2" data-name="타원 28" transform="translate(23 23)" fill="none" stroke="#e97686" stroke-width="10" opacity="0.13">
+        <circle cx="113" cy="113" r="113" stroke="none"/>
+        <circle cx="113" cy="113" r="108" fill="none"/>
+      </g>
+      <g id="타원_29" data-name="타원 29" transform="translate(0 0)" fill="none" stroke="#76bee9" stroke-width="20" opacity="0.06">
+        <circle cx="136" cy="136" r="136" stroke="none"/>
+        <circle cx="136" cy="136" r="126" fill="none"/>
+      </g>
+    </g>
+    <g id="타원_40" data-name="타원 40" transform="translate(806 1392)" fill="none" stroke="#b8000c" stroke-width="1" opacity="0.14">
+      <circle cx="124.5" cy="124.5" r="124.5" stroke="none"/>
+      <circle cx="124.5" cy="124.5" r="124" fill="none"/>
+    </g>
+    <text id="플렉스윌_OSF" data-name="플렉스윌 OSF" transform="translate(930 1515)" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="-70.596" y="0">플렉스윌</tspan><tspan y="0" font-family="NotoSansKR-Regular, Noto Sans KR" font-weight="400"> </tspan><tspan y="0">OSF</tspan></text>
+    <text id="Open_Service_Framework" data-name="Open Service Framework" transform="translate(819 1523)" font-size="16" font-family="NotoSansKR-Regular, Noto Sans KR"><tspan x="17.36" y="19">Open Service Framework</tspan></text>
+  </g>
+</svg>

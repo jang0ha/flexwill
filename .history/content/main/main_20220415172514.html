@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Flexwill</title>
+    <!-- 파비콘 css-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/resources/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/resources/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/resources/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/resources/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="transparent">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#transparent">
+
+    <!-- 메타이미지 -->
+    <!-- <meta property="og:url" content="링크url" />  -->
+    <meta property="og:type" content="website" /> 
+    <meta property="og:image" content="/resources/images/meta/flexwill_meta.png" /> 
+    <meta property="og:title" content="플렉스윌" /> 
+    <meta property="og:description" content="SI 및 ITO 사업을 진행하면서 고객이 Need를 명확히 파악하여 관련 Solution을 제공하는
+    Mobile&Solution 사업을 전개하고 있습니다. 
+    " />
+
+
+
+
+    <!-- 제이쿼리-ui css  -->
+    <link rel="stylesheet" href="/resources/lib/jquery-ui/jquery-ui.min.css">
+    <!-- 커스텀 스크롤 바 css  -->
+    <link rel="stylesheet" href="/resources/lib/mCustomScrollbar/jquery.mCustomScrollbar.css">
+    <!-- 스와이퍼 css  -->
+    <link rel="stylesheet" href="/resources/lib/swiper/css/swiper-bundle.min.css">
+    <!-- aos scss -->
+    <link rel="stylesheet" href="/resources/lib/aos/aos.css">
+    <!-- 부트스트랩 css -->
+    <link rel="stylesheet" href="/resources/css/bootstrap.css">
+    <!-- 스타일 css -->
+    <link rel="stylesheet" href="/resources/css/style.css">
+
+
+
+    <!-- 제이쿼리 js -->
+    <script src="/resources/js/jquery/jquery.min.js"></script>
+    <script src="/resources/lib/jquery-ui/jquery-ui.min.js"></script>
+    <!-- 부트스트랩 js  -->
+    <script src="/resources/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- 스와이퍼 js  -->
+    <script src="/resources/lib/swiper/js/swiper-bundle.min.js"></script>
+    <!-- aos js -->
+    <script src="/resources/lib/aos/aos.js"></script>
+
+
+    <!-- 커스텀 스크롤 바 js -->
+    <script src="/resources/lib/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+
+<body id="main">
+    <div id="wrap">
+        <!-- 헤더 -->
+        <div id="header-block">
+            <header>
+                <div class="container">
+                    <div class="header-wrap">
+                        <a href="/content/main/main.html" class="logo">
+                            <img src="../../resources/images/logo.svg" alt="플렉스윌 로고">
+                            <h1 class="sr-only">플렉스윌</h1>
+                        </a>
+
+                        <div class="menu-wrap">
+                            <ul class="gnb">
+                                <li><a href="/content/intro/intro.html">소개</a></li>
+                                <li><a href="/content/finance/finance.html">디지털 금융 플랫폼</a></li>
+                                <li><a href="/content/icbm/icbm.html">통신융합 플랫폼</a></li>
+                                <li><a href="/content/digitalContents/digitalContents.html">디지털 컨텐츠 플랫폼</a></li>
+                                <li><a href="/content/apm/apm.html">APM올인원솔루션</a></li>
+                                <li><a href="/content/contact/contact.html" class="contact-btn">문의하기</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-burger-wrap">
+                            <div class="header-burger">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- 컨텐츠 -->
+        <div id="content-block" class="">
+            <div id="content">
+                <div class="main-visual">
+                    <video src="../../resources/images/main_video.mp4" muted loop autoplay="autoplay" class="main-video"></video>
+                    <div class="overlay">
+                        <div class="title" data-aos="fade-up" data-aos-duration="1500" >Flexwill is Your Best<br>Business Partner.</div>
+                        <div class="desc"  data-aos="fade-up" data-aos-duration="2500" >
+                            <b>SI</b> 및 <b>ITO 사업</b>을 진행하면서 고객의 Needs를 명확히 파악하여 관련 Solution을 제공하는<br class="mobile-hidden"><b>Mobile&Solution 사업</b>을 전개하고 있습니다.
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+
+                <section class="section__intro">
+                    <div class="container">
+                        <div class="dummy">
+                            <div class="row row-30">
+                                <div class="col-lg-3 col-md-12">
+                                    <div class="title-group m-t-0"  data-aos="fade-down" data-aos-duration="1000" data-aos-once = 'true'>
+                                        <div class="sub-title" >IT전문 Solution 기업</div>
+                                        <div class="main-title">플렉스윌</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-12">
+                                    <div class="row row-30">
+                                        <div class="col-md-4 col-12">
+                                            <div class="intro-card">
+                                                <img src="../../resources/images/intro-image-01.png" alt="">
+                                                <div>
+                                                    <div class="title">SI (System Integration)</div>
+                                                    <div class="desc">
+                                                        기업이 필요로 하는 시스템에 관한 분석, 구축 등 전반적인 모든 공정상의 서비스를 제공
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <div class="intro-card">
+                                                <img src="../../resources/images/intro-image-02.png" alt="">
+                                                <div>
+                                                    <div class="title">ITO (IT Outsourcing)</div>
+                                                    <div class="desc">
+                                                        정보화 전략을 수립, 추출된 핵심 성공요소를 근간으로 효율적인 서비스 제공
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <div class="intro-card">
+                                                <img src="../../resources/images/intro-image-03.png" alt="">
+                                                <div>
+                                                    <div class="title">컨설팅 (Consulting)</div>
+                                                    <div class="desc">
+                                                        컨설팅 목적과 니즈에 따라 최적의
+                                                        맞춤형 컨설팅 서비스를 제공
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ------ -->
+
+                <section class="section__sub-visual-section">
+                    <div class="container">
+                        <div class="text-wrap">
+                            <div class="title" data-aos="fade-right" data-aos-duration="1500" data-aos-once = 'true' >
+                                Flex Will contact to<br class="pc-hidden"> Digital-life.
+                            </div>
+                            <div class="desc" data-aos="fade-right" data-aos-duration="2500" data-aos-once = 'true'>
+                                플렉스윌만의 체계적인 디지털 기술을 통해 언택트 뉴노멀 시대에 진정한 IT 솔루션과 디지털 트렌드를 제공합니다.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ------ -->
+
+
+                <section class="section__field">
+                    <div class="container">
+                        <div class="row row-20">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="offset">
+                                    <div class="title">
+                                        탁월한 기술과 솔루션, 디지털 금융혁신 플랫폼
+                                    </div>
+                                    <ul>
+                                        <li>• 금융/통신/제조 중심의 상주 SI 프로젝트</li>
+                                        <li>• 커머스 분야의 비상주 프로젝트 진행</li>
+                                        <li>• 자체 솔루션</li>
+                                        <li>• 인공지능 동영상 감지/토픽 모델 적용</li>
+                                        <li>• 블록 체인 플랫폼 제공</li>
+                                    </ul>
+                                    <a href="/content/finance/finance.html">
+                                        MORE
+                                        <em>
+                                            <span></span>
+                                        </em>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="offset">
+                                    <div class="title">
+                                        최신 기술을 융합한, ICBM 통신융합 플랫폼
+                                    </div>
+                                    <ul>
+                                        <li>• 은행 : 국민,신한,하나, 한국투자증권 등</li>
+                                        <li>• 보험 : KB , 라이나 등</li>
+                                        <li>• 서비스 : 하이마트, 효성, 라인, 네이버, 이케아 등</li>
+                                        <li>• 기타 : Start Up 기업의 여러 앱 및 포털 구축 및 컨설팅</li>
+                                    </ul>
+                                    <a href="/content/icbm/icbm.html">
+                                        MORE
+                                        <em>
+                                            <span></span>
+                                        </em>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="offset">
+                                    <div class="title">
+                                        준비된 미래 사업, 컨텐츠 디지털 플랫폼
+                                    </div>
+                                    <ul>
+                                        <li>• AR : Galaxy AR Docent, Galaxy Media Facade 삼성전자 Doodle World, 모션인식 스크린, 루픽, 몰팅, 코즈볼 피부측정, 이노베이스 공기질 측정 등</li>
+                                        <li>• VR, XR , NFC, 메타버스, 데이터플랫폼 제공</li>
+                                    </ul>
+                                    <a href="/content/digitalContents/digitalContents.html">
+                                        MORE
+                                        <em>
+                                            <span></span>
+                                        </em>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="offset last">
+                                    <div class="title">
+                                        사용자 환경 분석, APM 올인원 솔루션
+                                    </div>
+                                    <ul>
+                                        <li>• 분산추적, 서비스 메시 원격분석, 메트릭스 집계 및 시각화를 위한 올인원 솔루션을 제공</li>
+                                        <li>•마이크로 서비스, 클라우드 네이티브 및 컨테이너 기반( Docker, Kubernetes, Mesos) 아키텍처용으로 설계된 분산 시스템</li>
+                                    </ul>
+                                    <a href="/content/apm/apm.html">
+                                        MORE
+                                        <em>
+                                            <span></span>
+                                        </em>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ------ -->
+
+                <section class="section__skills">
+                    <div class="title-wrap">
+                        <div class="title"> IT 친화적인 구조</div>
+                        <div class="desc">데이터 연동, 응용, 관리 기술을 통해<br class="pc-hidden"> 다양한 사용자들에게 맞춤형 서비스를 제공할 수 있으며 사용자 중심의 지속가능한 체계화된 솔루션을 제공 받을 수 있습니다.
+                        </div>
+                    </div>
+
+                    <div class="row row-0">
+                        <div class="col-4">
+                            <div class="skills-wrap">
+                                <div class="skills-box">
+                                    <div class="title">플랫폼 및 연동 기술</div>
+                                    <div class="skills">
+                                        <ul>
+                                            <li>Smart Contract</li>
+                                            <li>자산등록 기술</li>
+                                            <li>클라우드 연동</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="skills-wrap">
+                                <div class="skills-box">
+                                    <div class="title">응용기술</div>
+                                    <div class="skills">
+                                        <ul>
+                                            <li>Digital Currency</li>
+                                            <li>부동산 기록관리</li>
+                                            <li>전자 투표</li>
+                                            <li>콘텐츠 유통</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="skills-wrap">
+                                <div class="skills-box">
+                                    <div class="title">관리기술</div>
+                                    <div class="skills">
+                                        <ul>
+                                            <li>Security</li>
+                                            <li>Privacy</li>
+                                            <li>Compliance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ------ -->
+
+                <section class="section__work">
+                    <div class="container">
+                        <div class="text-wrap">
+                            <div class="title">We are FlexWILL</div>
+                            <div class="desc"> IT 기술로 고객의 가치를 높입니다.</div>
+                        </div>
+                        <div class="main-portfolio">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_01.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_02.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_03.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_04.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_05.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_06.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../../resources/images/work_07.png" alt="">
+                                        <a href="/content/intro/intro.html" class="overlay">
+                                            <span>+ 더보기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ------ -->
+
+                <section class="section__contact-main">
+                    <div class="container">
+                        <div class="text-wrap">
+                            <div class="title">
+                                성공적인 e-비즈니스를 함께!
+                            </div>
+                            <div class="desc">
+                                플렉스윌의 사업분야에 대해서 내용을 문의하시거나, 사업제휴,의견 등을 자유롭게 기재해 주세요.<br class="pc-hidden"><br class="pc-hidden">문의하신 내용은 담당자가 정성껏 답변해 드리겠습니다.
+                            </div>
+                        </div>
+    
+                        <div class="text-center m-t-80" >
+                            <a href="/content/contact/contact.html" class="btn btn-primary contact-btn font-weight-bold btn-lg" >
+                                문의하기
+                                <i class="icon-right-arrow-w"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+
+        <!-- 푸터 -->
+        <div id="footer-block">
+            <footer>
+                <div class="container">
+                    <div class="row row-30">
+                        <div class="col-md-2 d-none d-md-block" >
+                            <img src="../../resources/images/logo-white.svg" alt="" class="footer-logo">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="footer-wrap">
+                                <ul>
+                                    <li>상호 : 플렉스윌 | 대표자 : 김성원 | 사업자 등록번호 : 325-87-01739 주소 : 서울 성동구 광나루로 144 (성수동1가) 더스페이스 타워 5층 TEL : 02-468-2333 | FAX : 02-468-2331</li>
+                                    <li>EMAIL : kimswaa@flexwill.co.kr Copyright(c) 플렉스윌. All Rights Reserved</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- ui.js  -->
+    <script src="/resources/js/ui.js"></script>
+
+    <script>
+        var publicationsSwiper = new Swiper('.main-portfolio .swiper-container', {
+            slidesPerView: '1.8',
+            spaceBetween: 20,
+            freeMode: true,
+            observer: true,
+            observeParents: true,
+            observeSlideChildren: true,
+            navigation: {
+                nextEl: '.swiper-button-next-sites',
+                prevEl: '.swiper-button-prev-sites',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 30,
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
