@@ -1,0 +1,765 @@
+<html lang="ko" data-width="957" data-height="1573" class="is-mobile" data-device="others"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-Compatible" content="IE=edge">
+  <title>플렉스윌</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="icon" type="image/png" href="./assets/favicon/favicon.ico" sizes="32x32">
+  <style>
+    body {
+      padding: 20px;
+      position: relative;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+      color: #222;
+      line-height: 1.5em;
+      font-family: 'NanumGothic';
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+    table th,
+    table td {
+      border: 1px solid #7992b9;
+      padding: 2px 10px;
+      word-break: keep-all;
+    }
+
+    table th {
+      background: #283c5d;
+      color: #fff;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    table td a {
+      color: #283c5d;
+      text-decoration: none;
+    }
+
+    table td a:hover {
+      text-decoration: underline;
+    }
+
+    table tbody tr:hover {
+      background-color: #ecf8fc;
+    }
+
+    .noteTable {
+      display: table;
+      width: 100%;
+    }
+
+    .noteTable .date {
+      display: table-cell;
+      color: #ff523c;
+      width: 40px;
+    }
+
+    .noteTable .note {
+      display: table-cell;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .bg {
+      background: #fff5f5;
+    }
+
+    ul.float {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+
+    ul.float li {
+      list-style: none;
+      border: 1px solid #ccc;
+      padding: 2px 5px;
+      display: inline-block;
+    }
+
+    .end {
+      background: #ffffcc;
+    }
+
+    .ing {
+      background: #f6b1a6;
+    }
+
+    .list {
+      text-align: center;
+      padding: 0 0 20px;
+    }
+
+    .list a {
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .list a:hover {
+      text-decoration: underline;
+    }
+
+    .box {
+      border: 2px dotted #aaa;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .box > ul {
+      display: inline-block;
+      text-align-last: left;
+    }
+  </style>
+</head>
+
+<body >
+  <h1>플렉스윌 pagelist</h1>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Depth 1</th>
+        <th>Depth 2</th>
+        <th>Depth 3</th>
+        <th>Depth 4</th>
+        <th>Depth 5</th>
+        <th>File</th>
+        <th>pageLink</th>
+        <th></th>
+        <th>Popup</th>
+      </tr>
+    </thead>
+    <tbody id="pageList">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="guide/modal.html">modal.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="guide/guide.html">guide.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Main</td>
+        <td>Main</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/main/</td>
+        <td><a target="_blank" href="html/main/main.html">main.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Company</td>
+        <td>회사소개</td>
+        <td>CEO 인사말</td>
+        <td></td>
+        <td></td>
+        <td>/about/</td>
+        <td><a target="_blank" href="html/about/ceo.html">ceo.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>비전</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/about/vision.html">vision.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>연혁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/about/history.html">history.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>R&amp;D</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/about/rnd.html">rnd.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>글로벌 네트워크</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/about/global-network.html">global-network.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Hyosung Way</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/about/hyosung-way.html">hyosung-way.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>인재채용</td>
+        <td>인재상</td>
+        <td></td>
+        <td></td>
+        <td>/recruitment/</td>
+        <td><a target="_blank" href="html/recruitment/talent.html">talent.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>인사제도</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/recruitment/personnel-system.html">personnel-system.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>직무소개</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/recruitment/job-introduction.html">job-introduction.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>IR</td>
+        <td>기업지배구조</td>
+        <td></td>
+        <td></td>
+        <td>/ir/</td>
+        <td><a target="_blank" href="html/ir/directors.html">directors.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>재무정보</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ir/balance-sheet.html">balance-sheet.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>주주정보</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ir/stock-price.html">stock-price.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>공시</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ir/disclosure-info.html">disclosure-info.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>공고</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ir/ir-notice.html">ir-notice.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>IR자료실</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ir/ir-report.html">ir-report.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Business</td>
+        <td>친환경 솔루션</td>
+        <td>Zero Waste</td>
+        <td></td>
+        <td></td>
+        <td>/eco-solution/</td>
+        <td><a target="_blank" href="html/eco-solution/zero-waste.html">zero-waste.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>brand</td>
+        <td>Brand-Now</td>
+        <td>브랜드 저널리즘</td>
+        <td></td>
+        <td></td>
+        <td>/brand/</td>
+        <td><a target="_blank" href="html/brand-now/brand-journalism.html">brand-journalism.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>브랜드 TV</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/brand-now/brand-tv.html">brand-tv.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>브랜드이미지</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/brand-now/brand-image.html">brand-image.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>소셜미디어</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/brand-now/social-media.html">social-media.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>ESG Now</td>
+        <td>ESG Activity</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/esg-now/esg-activity.html">esg-activity.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>ESG Story</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/esg-now/esg-story.html">esg-story.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>ESG brand</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/esg-now/esg-brand.html">esg-brand.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>story detail</td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/esg-now/esg-story-detail.html">esg-story-detail.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>activity detail</td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/esg-now/esg-activity-detail.html">esg-activity-detail.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Life Story</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/brand-now/life-story.html">life-story.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>개인정보보호</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/privacy/</td>
+        <td><a target="_blank" href="html/privacy/privacy.html">privacy.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>(구)개인정보보호</td>
+        <td></td>
+        <td></td>
+        <td>/privacy/</td>
+        <td><a target="_blank" href="html/privacy/privacy_old.html">privacy_old.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>footer</td>
+        <td>고객센터</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/customert/</td>
+        <td><a target="_blank" href="html/inquiry/customer.html">customer.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>등록</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/inquiry/customer_registration.html">customer_registration.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>완료</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/inquiry/customer_success.html">customer_success.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>제보센터</td>
+        <td>제보하기</td>
+        <td></td>
+        <td></td>
+        <td>/ethics-report/</td>
+        <td><a target="_blank" href="html/ethics-report/report-intro.html">report-intro.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>실명으로 제보하기</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ethics-report/realname-report.html">realname-report.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>익명으로 제보하기</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ethics-report/anonymous-report.html">anonymous-report.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>익명제보 조치내용 확인 로그인</td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ethics-report/anonymous-login.html">anonymous-login.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>익명제보 조치내용 확인</td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/ethics-report/anonymous-view.html">anonymous-view.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>mail</td>
+        <td>실명으로 제보하기 등록 안내 메일 - 사용자</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/mail-form/</td>
+        <td><a target="_blank" href="html/mail-form/realname-register.html">realname-register.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>모바일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/realname-register-mo.html">realname-register-mo.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>실명으로 제보하기 등록 안내 메일 - 관리자</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/realname-register-manager.html">realname-register-manager.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>모바일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/realname-register-manager-mo.html">realname-register-manager-mo.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>익명으로 제보하기 등록 안내 메일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/anonymous-register.html">anonymous-register.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>모바일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/anonymous-register-mo.html">anonymous-register-mo.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>익명으로 제보하기 조치안내 메일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/anonymous-result.html">anonymous-result.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>모바일</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/mail-form/anonymous-result-mo.html">anonymous-result-mo.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>etc</td>
+        <td>오류페이지</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/etc/</td>
+        <td><a target="_blank" href="html/etc/error.html">error.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>etc</td>
+        <td>오류페이지</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>/etc/</td>
+        <td><a target="_blank" href="html/etc/error2.html">error2.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>시스템점검</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a target="_blank" href="html/etc/system-check.html">system-check.html</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    var leng = document.querySelectorAll('tbody td a');
+    console.log(leng.length);
+
+    // var rows = document.getElementById("pageList").getElementsByTagName("tr");
+    // console.log(rows.length);
+  </script>
+
+
+</body></html>
